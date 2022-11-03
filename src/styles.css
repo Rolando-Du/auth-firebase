@@ -1,0 +1,78 @@
+/*-----LOGIN------*/
+
+.container-login {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+
+}
+
+.img-login {
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: rgb(95, 183, 242);
+    width: 80px;
+    height: auto;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.label-title {
+    margin: .5rem 0 0;
+    font-weight: 600;
+}
+
+
+#role {
+    margin-bottom: .5rem;
+}
+
+/*-----HOME------*/
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-logout {
+    background:  rgb(9, 138, 250);
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+}
+
+
+
+.btn-logout {
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+p.m-b {
+    position: relative;
+    margin-top: -30px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
